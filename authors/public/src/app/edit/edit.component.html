@@ -1,0 +1,6 @@
+<a href="/">Home</a>
+<h3>Edit this author</h3>
+<form (submit)="submitEdit(this.editing)">
+  <h3>Name: </h3><input type="text" name="editing.name" [(ngModel)]="editing.name">
+  <input type="submit" value="Update">
+</form>

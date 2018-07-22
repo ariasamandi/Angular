@@ -9,4 +9,7 @@ module.exports = function(app){
     app.get('/show', (req, res)=>{
         cake.show(req, res);
     })
+    app.post('/create/rating/:id', (req, res)=>{
+        cake.rating(req, res);
+    })
 }

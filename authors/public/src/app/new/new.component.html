@@ -1,0 +1,6 @@
+<a href="/">Home</a>
+<h4>Add a new author: </h4>
+<form (submit)="addAuthor()">
+  <h3>Name: </h3><input type="text" name="newAuthor.name" [(ngModel)]="newAuthor.name">
+  <input type="submit" value="Create Author">
+</form>
